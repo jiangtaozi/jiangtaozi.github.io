@@ -1,29 +1,29 @@
 # Site settings
-title: LULONGJI Blog  
-SEOTitle: 鲁龙基的博客 | LULONGJI Blog
+title: JIANGTAOZI Blog  
+SEOTitle: 叶子的博客 |JIANGTAOZI 
 header-img: img/post-bg-rwd.jpg
-email: lulongji2011@163.com
-description: "鲁龙基的博客, lulongji, 鲁龙基,tomcat,java ,spring ,linux "
-keyword: "鲁龙基的博客, lulongji, 鲁龙基,tomcat,java ,spring ,linux "
-url: "http://lulongji.github.io"          # your host, for absolute URL
+email: y258965839@163.com
+description: "叶子的博客, lulongji, 叶子,tomcat,java ,spring ,linux "
+keyword: "叶子的博客, lulongji, 叶子,tomcat,java ,spring ,linux "
+url: "http://jiangtaozi.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/lulongji/lulongji.github.io.git" # you code repository
+github_repo: "https://github.com/jiangtaozi/jiangtaozi.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "一开始什么都很容易，但坚持下来却很难，受尽所有苦难，方有你的王朝!"
-sidebar-avatar: /img/about-LULONGJI-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/about-JIANGTAOZI-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # SNS settings
 RSS: false
-# weibo_username:     lulongji
+# weibo_username:     jiangtaozi
 zhihu_username:     ping-yong-ye-shi-cuo
-github_username:    lulongji
+github_username:    jiangtaozi
 #facebook_username: 
 #jianshu_username:   
-#twitter_username:   lulongji
+#twitter_username:   jiangtaozi
 
 
 
@@ -58,9 +58,9 @@ kramdown:
 # Disqus settings（https://disqus.com/）
 #disqus_username: lulongji
 
-gitment_username : lulongji
+gitment_username : jiangtaozi
 gitment_id : 8446572
-gitment_repo : lulongji.github.io
+gitment_repo : jiangtaozi.github.io
 gitment_client_id : 37d96f3885b1ebea7e1d
 gitment_client_secret : 1d744823825939eda3beb9360bb46ed4010b8eb6
 
