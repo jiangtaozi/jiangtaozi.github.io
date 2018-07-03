@@ -1,7 +1,24 @@
-i---
+Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ @jiangtaozi Sign out
+1
+5 6 lulongji/lulongji.github.io
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights
+lulongji.github.io/about.html
+29b49a7  on 16 Oct 2017
+@lulongji lulongji 11
+     
+Executable File  163 lines (131 sloc)  5.4 KB
+---
 layout: page
 title: "关于我"
-description: "Hey, this is JIANGTAOZI."
+description: "Hey, this is LULONGJI."
 header-img: "img/post-bg-rwd.jpg"
 ---
 
@@ -15,14 +32,14 @@ header-img: "img/post-bg-rwd.jpg"
 <div class="zh post-container">
 
     <!--copied from markdown -->
-    <blockquote><p>我只愿我这一生，开心愉悦<br>
+    <blockquote><p>我只愿我这一生，开心愉悦，<br>
     家人健康，爱人对我好，也会很宠我</p></blockquote>
 
-    <p>Hey，我是<strong>叶子(YEZI)</strong>，一名笨笨得JAVA程序猿 ，现在北京工作。</p>
+    <p>Hey，我是<strong>叶子(JIANGTAOZI)</strong>，一名笨笨得JAVA程序猿，现在北京工作。</p>
 
-    <p>这是我的利用 <a href="https://pages.github.com/">GitHub Pages</a> 与 <a href="http://blog..cn/">Jekyll</a> 搭建的 个人博客。我在GitHub主页<a href="https://github.com/jiangtaozi">👉GitHub·JIANGTAOZI</a></p>
+    <p>这是我的利用 <a href="https://pages.github.com/">GitHub Pages</a> 与 <a href="http://blog.jiangtaozi.cn/">Jekyll</a> 搭建的 个人博客。我在GitHub主页<a href="https://github.com/jiangtaozi">👉GitHub·JIANGTAOZI</a></p>
 
-    <p>工作、学习之余，我特别喜欢去旅游，喜欢看看风景，还有美丽的人</p>
+    <p>工作、学习之余</p>
 
     <p></p>
     
@@ -32,20 +49,20 @@ header-img: "img/post-bg-rwd.jpg"
     <li><a href="https://github.com" target="_bank">GitHub</a></li>
     <li><a href="http://jekyll.com.cn/" target="_bank" >jekyll</a></li>
     <li><a href="https://pages.github.com/"  target="_bank" >GitHub Pages</a></li>
-    <li><a href="http://jiangtaozi.github.io/  " target="_bank">JIANGTAOZI</a></li>      
+    <li><a href="http://lulongji.github.io/  " target="_bank">LULONGJI</a></li>      
     </ul>
 </div>
 
 <!-- English Version -->
 <div class="en post-container">
-    <blockquote><p>I just want my life to be happy and happy. <br>
-    My family is healthy, my lover is kind to me, and he will spoil me.</p></blockquote>
+    <blockquote><p>Yet another Java Developer. <br>
+    Yet another Life-long Student.</p></blockquote>
 
-    <p>Hi, I am <strong>YeZi</strong>，you can call me <strong>Bruce</strong>. A clumsy JAVA programming ape, now working in Beijing.</p>
+    <p>Hi, I am <strong>LongJi Lu</strong>，you can call me <strong>Bruce</strong>. I am an JAVA software engineer and currently working in Beijing</p>
 
-    <p>This is my personal blog, through making Github Pages and Jekyll.My GitHub  👉 <a href="http://github.com/jiangtaozi">👉GitHub·JIANGTAOZI</a>.</p>
+    <p>This is my personal blog, through making Github Pages and Jekyll.My GitHub  👉 <a href="http://github.com/lulongji">👉GitHub·LULONGJI</a>.</p>
     
-    <p>After work and study, I especially like to travel, like to see the scenery, and beautiful people.</p>
+    <p>I am a sports enthusiast, I like fitness, running and boxing.</p>
 
     <h5>Talks</h5>
 
@@ -53,7 +70,7 @@ header-img: "img/post-bg-rwd.jpg"
     <li><a href="https://github.com" target="_bank" >GitHub</a></li>
     <li><a href="http://jekyll.com.cn/" target="_bank" >jekyll</a></li>
     <li><a href="https://pages.github.com/" target="_bank" >GitHub Pages</a></li>
-    <li><a href="http://jiangtaozi.github.io/  " target="_bank">JIANGTAOZI</a></li>    
+    <li><a href="http://lulongji.github.io/  " target="_bank">LULONGJI</a></li>    
     </ul>
 </div>
 
@@ -63,10 +80,8 @@ header-img: "img/post-bg-rwd.jpg"
     var $zh = document.querySelector(".zh");
     var $en = document.querySelector(".en");
     var $select = document.querySelector("select");
-
     // bind hashchange event
     window.addEventListener('hashchange', _render);
-
     // handle render
     function _render(){
         var _hash = window.location.hash;
@@ -83,7 +98,6 @@ header-img: "img/post-bg-rwd.jpg"
             $en.style.display = "none";
         }
     }
-
     // handle select change
     function onLanChange(index){
         if(index == 0){
@@ -92,7 +106,6 @@ header-img: "img/post-bg-rwd.jpg"
             window.location.hash = "#en"
         }
     }
-
     // init
     _render();
 </script>
@@ -104,7 +117,7 @@ header-img: "img/post-bg-rwd.jpg"
 <div class="comment">
     <!-- This id is used for indexing my loss comments forcedly -->
     <div class="ds-thread"
-    {% if site.duoshuo_username == "jiangtaozi" %}
+    {% if site.duoshuo_username == "lulongji" %}
         data-thread-id="0ee040117ec56f17aa7e2523d1eae19b"
     {% else %}
     <!-- U can just use this key generated to index comments at page about -->
@@ -120,7 +133,6 @@ header-img: "img/post-bg-rwd.jpg"
 <script type="text/javascript">
     // dynamic User hacking by Hux
     var _user = '{{site.duoshuo_username}}';
-
     // duoshuo comment query.
     var duoshuoQuery = {short_name: _user };
     (function() {
@@ -151,7 +163,6 @@ header-img: "img/post-bg-rwd.jpg"
     var disqus_shortname = "{{site.disqus_username}}";
     var disqus_identifier = "{{site.disqus_username}}/{{page.url}}";
     var disqus_url = "{{site.url}}{{page.url}}";
-
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
@@ -160,3 +171,16 @@ header-img: "img/post-bg-rwd.jpg"
 </script>
 <!-- disqus 公共JS代码 end -->
 {% endif %}
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+API
+Training
+Shop
+Blog
+About
+Press h to open a hovercard with more details.
